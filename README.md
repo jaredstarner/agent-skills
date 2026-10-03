@@ -4,6 +4,7 @@ Personal Claude Code skills. Each top-level folder is one skill.
 
 | Skill | Command | What it does |
 |---|---|---|
+| [nudge-ticket](nudge-ticket/SKILL.md) | `/nudge-ticket` | Turn a stalled ticket into an approach comment: pull linked context, find a completed analog in the code host, diff the two, draft steps and starter code. Drafts only; posts after approval. Jira and GitHub by default |
 | [requirements-breakdown](requirements-breakdown/SKILL.md) | `/requirements-breakdown` | EM pre-refinement: turn product requirements from any source into an Epic with Tasks, Spikes, placeholder tasks, blocking links, codebase implementation hints, and a critical path comment. Jira by default, other trackers on request |
 | [website](website/SKILL.md) | `/website` | Plan, design, build, and launch a website: discovery, visual direction, stack and hosting fit check, tokens, content, rendered QA, SEO and social image, deploy, DNS, releases |
 
