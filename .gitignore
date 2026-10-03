@@ -1,0 +1,9 @@
+# Local-only source material (transcript extracts); never publish
+research/
+
+# Packaged skills for upload
+dist/
+
+# OS and editor
+.DS_Store
+Thumbs.db
