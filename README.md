@@ -1,6 +1,6 @@
-# claude-skills
+# agent-skills
 
-Personal Claude Code skills. Each top-level folder is one skill.
+Shareable skills in the [Agent Skills](https://agentskills.io) format: each top-level folder is one skill, defined by its `SKILL.md`. Built and tested in Claude Code; the format also loads in other agents that support Agent Skills.
 
 | Skill | Command | What it does |
 |---|---|---|
