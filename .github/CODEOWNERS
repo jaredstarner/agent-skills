@@ -1,0 +1,2 @@
+# The owner reviews every change. There is no deploy, so review at merge is the only gate.
+* @jaredstarner
