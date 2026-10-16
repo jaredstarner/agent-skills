@@ -2,6 +2,7 @@
 name: nudge-ticket
 description: >-
   Turns a stalled or unowned ticket into an actionable comment that gives engineers a concrete push to execute: pulls the full ticket and its linked context (parent epic, sibling/reference tickets, wiki notes), finds the closest already-completed analog implementation in the code host, cross-references the ticket's specific case against that analog to work out what is actually different, simpler, or harder, then drafts a comment with an approach, a step list, and ready-to-adapt starter code. Defaults to Jira and GitHub; works with another tracker or code host when the user names one. Always drafts first and waits for explicit approval before posting. Use when the user shares a ticket link or key and asks to "nudge" it, "give it a push", "add context to get this moving", "post an approach comment", or "unblock this ticket", or says something like "repeat this process for another ticket" after a prior nudge-ticket run.
+license: MIT
 ---
 
 # Nudge Ticket
