@@ -1,0 +1,28 @@
+name: Skill improvement
+description: Suggest a change to an existing skill
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill
+      options:
+        - nudge-ticket
+        - requirements-breakdown
+        - website
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change
+      description: What the skill should do differently.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: The run or situation that showed the gap.
+    validations:
+      required: true

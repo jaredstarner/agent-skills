@@ -30,3 +30,11 @@ The website skill's scripts need Node 22+ and Chrome or Edge; `photo-intake.mjs`
 ## Not in this repo
 
 `research/` (transcript extracts used to write the skills) stays local and is gitignored.
+
+## Contributing
+
+Bug reports, improvements, and new skill ideas are welcome through the issue forms. See [CONTRIBUTING.md](CONTRIBUTING.md) for how changes are proposed and reviewed.
+
+## License
+
+[MIT](LICENSE)

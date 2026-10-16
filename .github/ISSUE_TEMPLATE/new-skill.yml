@@ -1,0 +1,23 @@
+name: New skill idea
+description: Propose a skill for this repo
+labels: [new-skill]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What it does
+      description: The task the skill handles, start to finish.
+    validations:
+      required: true
+  - type: textarea
+    id: when
+    attributes:
+      label: When it triggers
+      description: What a user would say or share that should load it.
+    validations:
+      required: true
+  - type: textarea
+    id: tools
+    attributes:
+      label: Tools and services
+      description: CLIs, connectors, or accounts it needs. Skills here default to common tools and let the user name another.

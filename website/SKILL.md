@@ -2,6 +2,7 @@
 name: website
 description: >-
   Plan, design, build, and launch a website end to end: discovery, visual direction, stack and hosting choice, design tokens, pages and content, rendered QA, SEO and social cards, deploy, DNS cutover, and releases. Use this whenever the user wants to build or rebuild a website or landing page (a personal site, a small business or LLC site, a creator or hobby site such as a bookstagram, a product or business-idea landing page, or a site for someone else), wants help choosing between a code-based static site and a hosted builder, or is mid-build and needs the launch, SEO, favicon, social image, or domain steps, even if they never say "skill" or name a framework.
+license: MIT
 ---
 
 # Website

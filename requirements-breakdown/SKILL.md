@@ -2,6 +2,7 @@
 name: requirements-breakdown
 description: >-
   Engineering manager pre-refinement workflow: turns product requirements (from a ticket tracker, wiki, Figma, document stores such as SharePoint or Google Drive, Word/Excel/PDF files, plain text, or any mix) into a structured Epic with child Tasks, Spikes, and placeholder tasks, complete with descriptions, blocking links, source cross-references, codebase-sourced implementation hints, and a critical path comment. Defaults to Jira; works with another tracker when the user names one. Runs before Sprint Refinement. Use when the user shares requirements in any form; says "break this down", "create tickets", "set up the epic", "intake this", "pre-refinement", "work breakdown", "requirements breakdown", or "prep this for the team"; or pastes several ticket, wiki, design, or doc links together.
+license: MIT
 ---
 
 # Requirements Breakdown

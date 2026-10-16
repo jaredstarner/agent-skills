@@ -1,0 +1,40 @@
+name: Skill bug
+description: A skill did the wrong thing, failed, or broke
+labels: [bug]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill
+      options:
+        - nudge-ticket
+        - requirements-breakdown
+        - website
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What the agent did, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: How you invoked it
+      description: The command or prompt, with anything private removed.
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent and version
+      placeholder: Claude Code 2.x, claude.ai, or another agent
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: Windows 11, macOS 26, Ubuntu 24.04
