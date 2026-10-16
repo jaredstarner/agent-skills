@@ -4,6 +4,8 @@ Shareable skills in the [Agent Skills](https://agentskills.io) format: each top-
 
 | Skill | Command | What it does |
 |---|---|---|
+| [knowledge-repo](knowledge-repo/SKILL.md) | `/knowledge-repo` | Set up a personal knowledge repo in [Open Knowledge Format](https://github.com/GoogleCloudPlatform/open-knowledge-format): conventions, checker, seeding from notes or agent memory, agent wiring (Claude Code hooks and shared auto memory), and a scheduled upkeep routine |
+| [knowledge-upkeep](knowledge-upkeep/SKILL.md) | `/knowledge-upkeep` | What the routine runs: harvest durable knowledge from Claude Code transcripts into the repo, plus weekly maintenance. Unattended with `--scheduled`; manual runs end in a PR |
 | [nudge-ticket](nudge-ticket/SKILL.md) | `/nudge-ticket` | Turn a stalled ticket into an approach comment: pull linked context, find a completed analog in the code host, diff the two, draft steps and starter code. Drafts only; posts after approval. Jira and GitHub by default |
 | [requirements-breakdown](requirements-breakdown/SKILL.md) | `/requirements-breakdown` | EM pre-refinement: turn product requirements from any source into an Epic with Tasks, Spikes, placeholder tasks, blocking links, codebase implementation hints, and a critical path comment. Jira by default, other trackers on request |
 | [website](website/SKILL.md) | `/website` | Plan, design, build, and launch a website: discovery, visual direction, stack and hosting fit check, tokens, content, rendered QA, SEO and social image, deploy, DNS, releases |
@@ -25,7 +27,7 @@ python -c "import sys, zipfile, pathlib; n = sys.argv[1]; z = zipfile.ZipFile(f'
 
 ## Scripts
 
-The website skill's scripts need Node 22+ and Chrome or Edge; `photo-intake.mjs` also needs `sharp` in the site project. Run any of them with `--help`.
+The website skill's scripts need Node 22+ and Chrome or Edge; `photo-intake.mjs` also needs `sharp` in the site project. Run any of them with `--help`. The knowledge skills' scripts need Python 3.10+ and PyYAML.
 
 ## Not in this repo
 

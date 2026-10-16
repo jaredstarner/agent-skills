@@ -1,0 +1,19 @@
+{
+  "autoMemoryDirectory": "{{repo_path_fwd}}/memory",
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [ { "type": "command", "command": "{{python}} {{repo_path_fwd}}/tools/hooks.py session-start", "timeout": 10 } ] }
+    ],
+    "UserPromptSubmit": [
+      { "hooks": [ { "type": "command", "command": "{{python}} {{repo_path_fwd}}/tools/hooks.py prompt", "timeout": 10 } ] }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "{{python}} {{repo_path_fwd}}/tools/hooks.py stop", "timeout": 15 },
+          { "type": "command", "command": "{{python}} {{repo_path_fwd}}/tools/hooks.py sync", "timeout": 120, "async": true }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "okf_version": "0.2",
+  "owner": "human:{{owner_id}}",
+  "memory_dir": "memory",
+  "areas": {
+    "memory": "Agent memory: preferences, profile facts, project pointers",
+    "projects": "One concept per project: what it is, where it lives, rules, decisions, open items",
+    "work": "Approaches from professional work, with employer and customer names removed",
+    "research": "Distilled research findings",
+    "references": "External specs and material this bundle relies on",
+    "environment": "This machine's setup: agent settings, OS quirks, cross-project tooling"
+  },
+  "style": {
+    "no_em_dashes": false
+  },
+  "hooks": {
+    "nudge_after_tool_calls": 25
+  },
+  "upkeep": {
+    "exclude_projects": [],
+    "max_chars": 600000,
+    "batch_chars": 150000,
+    "max_subagents": 4,
+    "maintenance_day": "Monday",
+    "question_label": "question"
+  }
+}
